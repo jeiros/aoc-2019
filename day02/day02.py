@@ -10,7 +10,7 @@ def solve_program(program):
 		elif program[i] == 2:  # Multiplication
 			program[loc3] = program[loc1] * program[loc2]
 		else:
-			raise RunTimeError("Code {} not allowed.".format(program[i]))
+			raise RuntimeError("Code {} not allowed.".format(program[i]))
 		i += 4  # Move to next Opcode
 	return program
 
