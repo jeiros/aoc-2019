@@ -115,7 +115,7 @@ def solve_part2(wire1: str, wire2: str) -> int:
 		if sum_of_distances < best:
 			best = sum_of_distances
 
-	return best
+	return int(best)
 
 
 
